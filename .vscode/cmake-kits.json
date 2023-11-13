@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ARM GCC",
+    "environmentVariables": {
+      "ARMGCC_DIR": "C:\\Users\\isaac\\.mcuxpressotools\\arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi",
+      "SdkRootDirPath": "${workspaceFolder}/sdk"
+    },
+    "cmakeSettings": {
+      "LIBRARY_TYPE": "NEWLIB",
+      "LANGUAGE": "C",
+      "DEBUG_CONSOLE": "UART",
+      "POSTPROCESS_UTILITY": "C:\\Users\\isaac\\.mcuxpressotools\\mcux-fixelf\\mcux-fixelf-windows.exe",
+      "SdkRootDirPath": "${workspaceFolder}/sdk"
+    },
+    "keep": true,
+    "toolchainFile": "d:\\NXP\\sdk\\SDK_2_14_0_LPCXpresso55S36\\tools\\cmake_toolchain_files\\armgcc.cmake"
+  }
+]

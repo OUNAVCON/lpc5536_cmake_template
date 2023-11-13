@@ -1,0 +1,42 @@
+Scanning dependencies of target freertos_hello.elf
+[  2%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj
+[  8%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj
+[  8%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj
+[ 11%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj
+[ 14%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
+[ 20%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
+[ 20%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
+[ 22%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj
+[ 25%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/gcc/startup_LPC55S36.S.obj
+[ 28%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/system_LPC55S36.c.obj
+[ 31%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_clock.c.obj
+[ 34%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_common.c.obj
+[ 40%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_usart.c.obj
+[ 42%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_flexcomm.c.obj
+[ 42%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_common_arm.c.obj
+[ 45%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_gpio.c.obj
+[ 51%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_reset.c.obj
+[ 51%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/drivers/fsl_power.c.obj
+[ 54%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj
+[ 60%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj
+[ 62%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj
+[ 62%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj
+[ 68%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj
+[ 71%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj
+[ 71%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj
+[ 74%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj
+[ 80%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
+[ 80%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj
+[ 85%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/utilities/fsl_syscall_stub.c.obj
+[ 85%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/utilities/fsl_sbrk.c.obj
+[ 91%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/utilities/fsl_assert.c.obj
+[ 91%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/utilities/fsl_memcpy.S.obj
+[ 94%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/utilities/str/fsl_str.c.obj
+[ 97%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC55S36/utilities/debug_console/fsl_debug_console.c.obj
+[100%] Linking C executable debug/freertos_hello.elf
+Memory region         Used Size  Region Size  %age Used
+    m_interrupts:         544 B         1 KB     53.12%
+          m_text:       18836 B       245 KB      7.51%
+          m_data:       13880 B       112 KB     12.10%
+         m_sramx:          0 GB        16 KB      0.00%
+[100%] Built target freertos_hello.elf

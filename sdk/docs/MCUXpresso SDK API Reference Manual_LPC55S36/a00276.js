@@ -1,0 +1,4 @@
+var a00276 =
+[
+    [ "SERIAL_PORT_RPMSG_HANDLE_SIZE", "a00276.html#ga0753cd1d5823de37b1373df845b06a01", null ]
+];

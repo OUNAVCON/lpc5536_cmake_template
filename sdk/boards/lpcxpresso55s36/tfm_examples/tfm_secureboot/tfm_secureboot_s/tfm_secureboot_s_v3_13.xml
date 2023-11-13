@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ksdk:examples xmlns:ksdk="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd manifest.xsd">
+  <externalDefinitions>
+    <definition extID="lpcxpresso55s36_tfm_secureboot_ns"/>
+    <definition extID="component.els_pkc.platform.lpc.LPC55S36"/>
+    <definition extID="platform.drivers.ctimer.LPC55S36"/>
+    <definition extID="platform.drivers.cache_cache64.LPC55S36"/>
+    <definition extID="middleware.tfm.flash_iap_n4a.LPC55S36"/>
+    <definition extID="middleware.tfm.s.profile_medium.LPC55S36"/>
+    <definition extID="middleware.tfm.s.LPC55S36"/>
+    <definition extID="platform.drivers.common.LPC55S36"/>
+    <definition extID="platform.drivers.clock.LPC55S36"/>
+    <definition extID="platform.drivers.power.LPC55S36"/>
+    <definition extID="platform.drivers.reset.LPC55S36"/>
+    <definition extID="platform.drivers.lpc_iocon.LPC55S36"/>
+    <definition extID="device.LPC55S36_CMSIS.LPC55S36"/>
+    <definition extID="platform.drivers.flexcomm_usart.LPC55S36"/>
+    <definition extID="platform.drivers.flexcomm.LPC55S36"/>
+    <definition extID="platform.drivers.lpc_gpio.LPC55S36"/>
+    <definition extID="platform.utilities.assert.LPC55S36"/>
+    <definition extID="utility.debug_console.LPC55S36"/>
+    <definition extID="component.usart_adapter.LPC55S36"/>
+    <definition extID="component.serial_manager_uart.LPC55S36"/>
+    <definition extID="component.serial_manager.LPC55S36"/>
+    <definition extID="component.lists.LPC55S36"/>
+    <definition extID="platform.utilities.misc_utilities.LPC55S36"/>
+    <definition extID="component.els_pkc.LPC55S36"/>
+    <definition extID="component.els_pkc.standalone_gdet.LPC55S36"/>
+    <definition extID="component.els_pkc.els.LPC55S36"/>
+    <definition extID="component.els_pkc.pkc.LPC55S36"/>
+    <definition extID="component.els_pkc.trng.LPC55S36"/>
+    <definition extID="component.els_pkc.static_lib.lpc.LPC55S36"/>
+    <definition extID="component.els_pkc.els_header_only.LPC55S36"/>
+    <definition extID="component.els_pkc.els_common.LPC55S36"/>
+    <definition extID="component.els_pkc.standalone_keyManagement.LPC55S36"/>
+    <definition extID="component.els_pkc.hash.LPC55S36"/>
+    <definition extID="component.els_pkc.core.LPC55S36"/>
+    <definition extID="component.els_pkc.session.LPC55S36"/>
+    <definition extID="component.els_pkc.key.LPC55S36"/>
+    <definition extID="component.els_pkc.mac_modes.LPC55S36"/>
+    <definition extID="component.els_pkc.aead_modes.LPC55S36"/>
+    <definition extID="component.els_pkc.cipher_modes.LPC55S36"/>
+    <definition extID="component.els_pkc.memory.LPC55S36"/>
+    <definition extID="component.els_pkc.param_integrity.LPC55S36"/>
+    <definition extID="component.els_pkc.flow_protection.LPC55S36"/>
+    <definition extID="component.els_pkc.secure_counter.LPC55S36"/>
+    <definition extID="component.els_pkc.pre_processor.LPC55S36"/>
+    <definition extID="component.els_pkc.toolchain.LPC55S36"/>
+    <definition extID="component.els_pkc.random.LPC55S36"/>
+    <definition extID="component.els_pkc.random_modes.LPC55S36"/>
+    <definition extID="component.els_pkc.prng.LPC55S36"/>
+    <definition extID="component.els_pkc.aes.LPC55S36"/>
+    <definition extID="component.els_pkc.ecc.LPC55S36"/>
+    <definition extID="component.els_pkc.math.LPC55S36"/>
+    <definition extID="component.els_pkc.rsa.LPC55S36"/>
+    <definition extID="component.els_pkc.mac.LPC55S36"/>
+    <definition extID="component.els_pkc.padding.LPC55S36"/>
+    <definition extID="component.els_pkc.aead.LPC55S36"/>
+    <definition extID="component.els_pkc.cipher.LPC55S36"/>
+    <definition extID="platform.drivers.niobe4analog_iap.LPC55S36"/>
+    <definition extID="middleware.tfm.s.crypto.LPC55S36"/>
+    <definition extID="middleware.tfm.s.initial_attestation.asymmetric.LPC55S36"/>
+    <definition extID="middleware.tfm.s.its.LPC55S36"/>
+    <definition extID="middleware.tfm.s.platform.LPC55S36"/>
+    <definition extID="middleware.mbedcrypto.psa_driver_wrapper_default.LPC55S36"/>
+    <definition extID="middleware.mbedcrypto.LPC55S36"/>
+    <definition extID="middleware.mbedcrypto.port.LPC55S36"/>
+    <definition extID="middleware.tfm.s.initial_attestation.LPC55S36"/>
+    <definition extID="middleware.tfm.qcbor.LPC55S36"/>
+    <definition extID="middleware.tfm.s.lpcxpresso55s36.LPC55S36"/>
+    <definition extID="CMSIS_Include_core_cm.LPC55S36"/>
+    <definition extID="mdk"/>
+    <definition extID="mcuxpresso"/>
+    <definition extID="com.nxp.mcuxpresso"/>
+    <definition extID="iar"/>
+    <definition extID="armgcc"/>
+  </externalDefinitions>
+  <example id="lpcxpresso55s36_tfm_secureboot_s" name="tfm_secureboot_s" dependency="component.els_pkc.platform.lpc.LPC55S36 platform.drivers.ctimer.LPC55S36 platform.drivers.cache_cache64.LPC55S36 middleware.tfm.flash_iap_n4a.LPC55S36 middleware.tfm.s.profile_medium.LPC55S36 middleware.tfm.s.LPC55S36 platform.drivers.common.LPC55S36 platform.drivers.clock.LPC55S36 platform.drivers.power.LPC55S36 platform.drivers.reset.LPC55S36 platform.drivers.lpc_iocon.LPC55S36 device.LPC55S36_CMSIS.LPC55S36 platform.drivers.flexcomm_usart.LPC55S36 platform.drivers.flexcomm.LPC55S36 platform.drivers.lpc_gpio.LPC55S36 platform.utilities.assert.LPC55S36 utility.debug_console.LPC55S36 component.usart_adapter.LPC55S36 component.serial_manager_uart.LPC55S36 component.serial_manager.LPC55S36 component.lists.LPC55S36 platform.utilities.misc_utilities.LPC55S36 component.els_pkc.LPC55S36 component.els_pkc.standalone_gdet.LPC55S36 component.els_pkc.els.LPC55S36 component.els_pkc.pkc.LPC55S36 component.els_pkc.trng.LPC55S36 component.els_pkc.static_lib.lpc.LPC55S36 component.els_pkc.els_header_only.LPC55S36 component.els_pkc.els_common.LPC55S36 component.els_pkc.standalone_keyManagement.LPC55S36 component.els_pkc.hash.LPC55S36 component.els_pkc.core.LPC55S36 component.els_pkc.session.LPC55S36 component.els_pkc.key.LPC55S36 component.els_pkc.mac_modes.LPC55S36 component.els_pkc.aead_modes.LPC55S36 component.els_pkc.cipher_modes.LPC55S36 component.els_pkc.memory.LPC55S36 component.els_pkc.param_integrity.LPC55S36 component.els_pkc.flow_protection.LPC55S36 component.els_pkc.secure_counter.LPC55S36 component.els_pkc.pre_processor.LPC55S36 component.els_pkc.toolchain.LPC55S36 component.els_pkc.random.LPC55S36 component.els_pkc.random_modes.LPC55S36 component.els_pkc.prng.LPC55S36 component.els_pkc.aes.LPC55S36 component.els_pkc.ecc.LPC55S36 component.els_pkc.math.LPC55S36 component.els_pkc.rsa.LPC55S36 component.els_pkc.mac.LPC55S36 component.els_pkc.padding.LPC55S36 component.els_pkc.aead.LPC55S36 component.els_pkc.cipher.LPC55S36 platform.drivers.niobe4analog_iap.LPC55S36 middleware.tfm.s.crypto.LPC55S36 middleware.tfm.s.initial_attestation.asymmetric.LPC55S36 middleware.tfm.s.its.LPC55S36 middleware.tfm.s.platform.LPC55S36 middleware.mbedcrypto.psa_driver_wrapper_default.LPC55S36 middleware.mbedcrypto.LPC55S36 middleware.mbedcrypto.port.LPC55S36 middleware.tfm.s.initial_attestation.LPC55S36 middleware.tfm.qcbor.LPC55S36 middleware.tfm.s.lpcxpresso55s36.LPC55S36 CMSIS_Include_core_cm.LPC55S36" linked_projects="lpcxpresso55s36_tfm_secureboot_ns" category="tfm_examples">
+    <projects>
+      <project type="com.crt.advproject.projecttype.exe" nature="org.eclipse.cdt.core.cnature"/>
+    </projects>
+    <toolchainSettings>
+      <toolchainSetting id_refs="com.nxp.mcuxpresso">
+        <buildSteps>
+          <preBuildStep>arm-none-eabi-gcc -DCONFIG_TFM_PARTITION_META -DENABLE_HEAP -D__ARM_ARCH_8M_MAIN__ -DCONFIG_TFM_USE_TRUSTZONE -E -P -xc -I../tf-m/platform/ext/target/nxp/lpcxpresso55s36/partition -I../tf-m/platform/ext/common ../tf-m/platform/ext/target/nxp/common/armgcc/tfm_common_s.ld -o ../tf-m/platform/ext/target/nxp/common/armgcc/tfm_common_s_pre.ld</preBuildStep>
+        </buildSteps>
+        <option id="com.crt.advproject.debugger.security.nonsecureimage" type="string">
+          <value>${linked:lpcxpresso55s36_tfm_secureboot_ns}</value>
+        </option>
+        <option id="gnu.c.compiler.option.preprocessor.def.symbols" type="stringList">
+          <value>CPU_LPC55S36JBD100</value>
+          <value>MBEDTLS_MCUX_PKC_ECDSA=0</value>
+          <value>TFM_SPM_LOG_LEVEL=TFM_SPM_LOG_LEVEL_INFO</value>
+          <value>TFM_SP_LOG_RAW_ENABLED</value>
+          <value>TFM_PARTITION_LOG_LEVEL=TFM_PARTITION_LOG_LEVEL_INFO</value>
+          <value>DAUTH_CHIP_DEFAULT</value>
+          <value>SB_FILE</value>
+          <value>__SEMIHOST_HARDFAULT_DISABLE</value>
+          <value>TFM_FIH_PROFILE_ON</value>
+          <value>TFM_FIH_PROFILE_MEDIUM</value>
+          <value>MCUXPRESSO_SDK</value>
+          <value>TFM_LVL=2</value>
+          <value>PROJECT_CONFIG_HEADER_FILE='"config_profile_medium.h"'</value>
+          <value>MBEDTLS_CONFIG_FILE='"tfm_mbedcrypto_config_profile_medium.h"'</value>
+          <value>MBEDTLS_PSA_CRYPTO_CONFIG_FILE='"crypto_config_profile_medium.h"'</value>
+          <value>PS_CRYPTO_AEAD_ALG=PSA_ALG_CCM</value>
+          <value>CONFIG_TFM_BUILDING_SPE=1</value>
+          <value>CONFIG_TFM_ENABLE_MEMORY_PROTECT</value>
+          <value>TFM_PARTITION_NS_AGENT_TZ</value>
+          <value>TFM_PARTITION_IDLE</value>
+          <value>PLATFORM_DEFAULT_NV_COUNTERS</value>
+          <value>PLATFORM_DEFAULT_OTP</value>
+          <value>PLATFORM_DEFAULT_PROVISIONING</value>
+          <value>OTP_WRITEABLE</value>
+          <value>TFM_DUMMY_PROVISIONING</value>
+          <value>CONFIG_TFM_PARTITION_META</value>
+          <value>CONFIG_TFM_FLOAT_ABI=2</value>
+          <value>CONFIG_TFM_ENABLE_CP10CP11</value>
+          <value>CONFIG_TFM_LAZY_STACKING</value>
+          <value>CONFIG_TFM_HALT_ON_CORE_PANIC</value>
+          <value>CONFIG_TFM_USE_TRUSTZONE</value>
+          <value>ATTEST_TOKEN_PROFILE_PSA_IOT_1</value>
+          <value>TEST_NS_ATTESTATION</value>
+          <value>TEST_S_ATTESTATION</value>
+          <value>PS_ENCRYPTION</value>
+          <value>PS_ROLLBACK_PROTECTION</value>
+          <value>SERIAL_PORT_TYPE_UART=1</value>
+          <value>TFM_PARTITION_CRYPTO</value>
+          <value>PLATFORM_DEFAULT_CRYPTO_KEYS</value>
+          <value>MBEDTLS_PSA_CRYPTO_DRIVERS</value>
+          <value>MBEDTLS_PSA_CRYPTO_BUILTIN_KEYS</value>
+          <value>PSA_CRYPTO_DRIVER_TFM_BUILTIN_KEY</value>
+          <value>PSA_CRYPTO_DRIVER_TFM_BUILTIN_KEY_LOADER</value>
+          <value>ATTEST_KEY_BITS=256</value>
+          <value>T_COSE_DISABLE_MAC0</value>
+          <value>T_COSE_DISABLE_ES384</value>
+          <value>T_COSE_DISABLE_ES512</value>
+          <value>TFM_PARTITION_INTERNAL_TRUSTED_STORAGE</value>
+          <value>TFM_PARTITION_PLATFORM</value>
+          <value>CRYPTO_HW_ACCELERATOR</value>
+          <value>TFM_PARTITION_INITIAL_ATTESTATION</value>
+          <value>T_COSE_USE_PSA_CRYPTO</value>
+          <value>QCBOR_DISABLE_FLOAT_HW_USE</value>
+          <value>USEFULBUF_DISABLE_ALL_FLOAT</value>
+          <value>QCBOR_DISABLE_PREFERRED_FLOAT</value>
+          <value>TARGET_CONFIG_HEADER_FILE='"config_tfm_target.h"'</value>
+        </option>
+        <option id="com.crt.advproject.gcc.securestate" type="enum">
+          <value>com.crt.advproject.gcc.securestate.secure</value>
+        </option>
+        <option id="com.crt.advproject.gcc.fpu" type="enum">
+          <value>com.crt.advproject.gcc.fpu.fpv5sp.hard</value>
+        </option>
+        <option id="gnu.c.compiler.option.optimization.flags" type="string">
+          <value>-fno-common</value>
+        </option>
+        <option id="com.crt.advproject.c.misc.dialect" type="enum">
+          <value>com.crt.advproject.misc.dialect.gnu99</value>
+        </option>
+        <option id="gnu.c.compiler.option.misc.other" type="string">
+          <value>-Wno-unused-variable -Wno-unused-but-set-variable -Wno-return-type -Wno-bool-operation -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin</value>
+        </option>
+        <option id="gnu.c.compiler.option.warnings.allwarn" type="boolean">
+          <value>false</value>
+        </option>
+        <option id="gnu.c.compiler.option.warnings.toerrors" type="boolean">
+          <value>false</value>
+        </option>
+        <option id="com.crt.advproject.gas.hdrlib" type="enum">
+          <value>com.crt.advproject.gas.hdrlib.newlibnano</value>
+        </option>
+        <option id="com.crt.advproject.gas.specs" type="enum">
+          <value>com.crt.advproject.gas.specs.newlibnano</value>
+        </option>
+        <option id="com.crt.advproject.gcc.hdrlib" type="enum">
+          <value>com.crt.advproject.gcc.hdrlib.newlibnano</value>
+        </option>
+        <option id="com.crt.advproject.gcc.specs" type="enum">
+          <value>com.crt.advproject.gcc.specs.newlibnano</value>
+        </option>
+        <option id="com.crt.advproject.link.gcc.hdrlib" type="enum">
+          <value>com.crt.advproject.gcc.link.hdrlib.newlibnano.semihost</value>
+        </option>
+        <option id="com.crt.advproject.link.securestate" type="enum">
+          <value>com.crt.advproject.link.securestate.secure</value>
+        </option>
+        <option id="com.crt.advproject.link.fpu" type="enum">
+          <value>com.crt.advproject.link.fpu.fpv5sp.hard</value>
+        </option>
+        <option id="gnu.c.link.option.other" type="stringList">
+          <value>--cmse-implib</value>
+          <value>--out-implib=tfm_secureboot_s_CMSE_lib.o</value>
+          <value>--no-warn-rwx-segment</value>
+        </option>
+        <option id="gnu.c.link.option.ldflags" type="string">
+          <value>--specs=nano.specs</value>
+        </option>
+        <option id="gnu.c.link.option.nostdlibs" type="boolean">
+          <value>false</value>
+        </option>
+        <option id="com.crt.advproject.gas.fpu" type="enum">
+          <value>com.crt.advproject.gas.fpu.fpv5sp.hard</value>
+        </option>
+      </toolchainSetting>
+    </toolchainSettings>
+    <include_paths>
+      <include_path path="../../../../../devices/LPC55S36" project_relative_path="device" type="c_include"/>
+      <include_path path="." project_relative_path="board" type="c_include"/>
+    </include_paths>
+    <source path="mdk" project_relative_path="./" type="workspace" toolchain="mdk">
+      <files mask="tfm_secureboot_s.uvprojx"/>
+      <files mask="tfm_secureboot_s.uvoptx"/>
+      <files mask="tfm_secureboot_s.uvmpw"/>
+      <files mask="tfm_secureboot.uvmpw"/>
+    </source>
+    <source path="../../../../../middleware/tfm/tf-m/platform/ext/target/nxp/lpcxpresso55s36/Device/Source" project_relative_path="startup" type="src">
+      <files mask="startup_lpcxpresso55s36.c"/>
+    </source>
+    <source path="../../../../../devices/LPC55S36" project_relative_path="device" type="src">
+      <files mask="system_LPC55S36.c"/>
+    </source>
+    <source path="../../../../../devices/LPC55S36" project_relative_path="device" type="c_include">
+      <files mask="system_LPC55S36.h"/>
+    </source>
+    <source path="." project_relative_path="board" type="src">
+      <files mask="pin_mux.c"/>
+      <files mask="hardware_init.c"/>
+    </source>
+    <source path="." project_relative_path="board" type="c_include">
+      <files mask="pin_mux.h"/>
+      <files mask="app.h"/>
+    </source>
+    <source path=".." project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot" type="doc" exclude="true">
+      <files mask="README.txt" hidden="true"/>
+    </source>
+    <source path="../scripts" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts" type="script" exclude="true">
+      <files mask="1_provision.bat" hidden="true"/>
+      <files mask="2_update_fw.bat" hidden="true"/>
+      <files mask="3_update_cfpa.bat" hidden="true"/>
+      <files mask="4_open_debug_port.bat" hidden="true"/>
+      <files mask="5_mass_erase.bat" hidden="true"/>
+      <files mask="config.cmd" hidden="true"/>
+    </source>
+    <source path="../scripts" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts" type="doc" exclude="true">
+      <files mask="README.txt" hidden="true"/>
+    </source>
+    <source path="../scripts/steps" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/steps" type="script" exclude="true">
+      <files mask="1_0_flash_erase.bat" hidden="true"/>
+      <files mask="1_1_buld_provision_sb.bat" hidden="true"/>
+      <files mask="1_2_write_provision_sb.bat" hidden="true"/>
+      <files mask="1_3_seal_irreversible.bat" hidden="true"/>
+      <files mask="2_1_buld_fw_sb.bat" hidden="true"/>
+      <files mask="2_2_write_fw_sb.bat" hidden="true"/>
+      <files mask="3_1_buld_cfpa_sb.bat" hidden="true"/>
+      <files mask="3_2_write_cfpa_sb.bat" hidden="true"/>
+      <files mask="4_1_change_lc_reg.bat" hidden="true"/>
+      <files mask="4_2_open_debug_port.bat" hidden="true"/>
+      <files mask="5_0_flash_mass_erase.bat" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace" type="script" exclude="true">
+      <files mask="build_image_win.bat" hidden="true"/>
+      <files mask="write_image_win.bat" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace" type="other" exclude="true">
+      <files mask="settings.sptjson" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/keys" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/keys" type="other" exclude="true">
+      <files mask="ROT1_p384.pem" hidden="true"/>
+      <files mask="ROT1_p384.pub" hidden="true"/>
+      <files mask="ROT2_p384.pem" hidden="true"/>
+      <files mask="ROT2_p384.pub" hidden="true"/>
+      <files mask="ROT3_p384.pem" hidden="true"/>
+      <files mask="ROT3_p384.pub" hidden="true"/>
+      <files mask="ROT4_p384.pem" hidden="true"/>
+      <files mask="ROT4_p384.pub" hidden="true"/>
+      <files mask="debug_authentication_key_ECC_384.pem" hidden="true"/>
+      <files mask="debug_authentication_key_ECC_384.pub" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/keys" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/keys" type="doc" exclude="true">
+      <files mask="spt_tools_versions.txt" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/input" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/input" type="binary" exclude="true">
+      <files mask="tfm_secureboot.bin" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/configs" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/configs" type="binary" exclude="true">
+      <files mask="cfpa.bin" hidden="true"/>
+      <files mask="cmpa.bin" hidden="true"/>
+      <files mask="cust_mk_sk.bin" hidden="true"/>
+      <files mask="sb_seed.bin" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/configs" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/configs" type="other" exclude="true">
+      <files mask="cfpa.json" hidden="true"/>
+      <files mask="cmpa.json" hidden="true"/>
+      <files mask="mbi_config.json" hidden="true"/>
+      <files mask="prince.json" hidden="true"/>
+      <files mask="sb3_cfpa_config.json" hidden="true"/>
+      <files mask="sb3_config.json" hidden="true"/>
+      <files mask="sb3_devhsm_config.json" hidden="true"/>
+      <files mask="write_fuses.json" hidden="true"/>
+      <files mask="write_parameters.json" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/configs" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/configs" type="doc" exclude="true">
+      <files mask="cust_mk_sk.txt" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/debug_auth" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/debug_auth" type="other" exclude="true">
+      <files mask="deb_auth_config.yaml" hidden="true"/>
+      <files mask="debug_auth_cert.dc" hidden="true"/>
+      <files mask="debug_authentication_key_ECC_384.pub" hidden="true"/>
+      <files mask="manifest.json" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/debug_auth" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/debug_auth" type="archive" exclude="true">
+      <files mask="debug_auth_cert.dc.zip" hidden="true"/>
+      <files mask="debug_auth_cert_request.zip" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/debug_auth" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/debug_auth" type="script" exclude="true">
+      <files mask="open_debug_port.bat" hidden="true"/>
+    </source>
+    <source path="../scripts/spt_workspace/bootable_images" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/scripts/spt_workspace/bootable_images" type="other" exclude="true">
+      <files mask="dev_hsm_provisioning.sb" hidden="true"/>
+      <files mask="tfm_secureboot.sb" hidden="true"/>
+      <files mask="tfm_secureboot_cfpa.sb" hidden="true"/>
+    </source>
+    <source path="." project_relative_path="board" type="src">
+      <files mask="board.c"/>
+      <files mask="clock_config.c"/>
+    </source>
+    <source path="." project_relative_path="board" type="c_include">
+      <files mask="board.h"/>
+      <files mask="clock_config.h"/>
+    </source>
+    <source path="." project_relative_path="doc" type="doc" toolchain="iar mdk armgcc">
+      <files mask="readme.txt"/>
+    </source>
+    <source path="../../../../../middleware/tfm/tf-m/platform/ext/target/nxp/common/armclang" project_relative_path="tf-m/platform/ext/target/nxp/common/armclang" type="linker" toolchain="mdk" generated_during_build="true">
+      <files mask="tfm_common_s_pre.sct"/>
+    </source>
+    <source path="../../../../../middleware/tfm/tf-m/platform/ext/target/nxp/common/armclang" project_relative_path="tf-m/platform/ext/target/nxp/common/armclang" method="copy" type="other" toolchain="mdk">
+      <files mask="tfm_common_s.sct"/>
+    </source>
+    <source path="mdk" project_relative_path="lpcxpresso55s36/tfm_examples/tfm_secureboot/tfm_secureboot_s" type="configuration" toolchain="mdk">
+      <files mask="tfm_secureboot_flashdebug_r.ini"/>
+      <files mask="tfm_secureboot_flashdownload_r.ini"/>
+    </source>
+  </example>
+</ksdk:examples>
