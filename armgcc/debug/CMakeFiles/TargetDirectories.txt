@@ -1,0 +1,3 @@
+D:/repo/lpc5536-template/armgcc/debug/CMakeFiles/freertos_hello.elf.dir
+D:/repo/lpc5536-template/armgcc/debug/CMakeFiles/edit_cache.dir
+D:/repo/lpc5536-template/armgcc/debug/CMakeFiles/rebuild_cache.dir

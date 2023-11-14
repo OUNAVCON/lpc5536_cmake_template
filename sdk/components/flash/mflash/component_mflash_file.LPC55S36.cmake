@@ -3,7 +3,7 @@
 include_guard(GLOBAL)
 message("${CMAKE_CURRENT_LIST_FILE} component is included.")
 
-if(CONFIG_USE_component_mflash_lpc55s3x OR CONFIG_USE_component_mflash_lpc55s3x_flexspi)
+if(CONFIG_USE_component_mflash_lpc55s3x OR CONFIG_USE_component_mflash_lpc55S3x_flexspi)
 
 target_sources(${MCUX_SDK_PROJECT_NAME} PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}/mflash_file.c

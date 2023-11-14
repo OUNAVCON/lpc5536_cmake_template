@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S
+
+/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S
+

@@ -1,0 +1,2 @@
+D:/repo/lpc5536-template/board/peripherals.c:82:6:BOARD_InitPeripherals	4	static
+D:/repo/lpc5536-template/board/peripherals.c:90:6:BOARD_InitBootPeripherals	8	static

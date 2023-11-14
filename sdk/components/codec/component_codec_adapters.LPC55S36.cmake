@@ -24,6 +24,6 @@ endif()
 
 else()
 
-message(SEND_ERROR "component_codec_adapters.LPC55S36 dependency does not meet, please check ${CMAKE_CURRENT_LIST_FILE}.")
+message(SEND_ERROR "component_codec_adapters.LPC5536 dependency does not meet, please check ${CMAKE_CURRENT_LIST_FILE}.")
 
 endif()

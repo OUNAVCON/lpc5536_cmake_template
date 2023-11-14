@@ -63,7 +63,7 @@ include(${ProjDirPath}/../board/all_sources.cmake)
 
 #set_source_files_properties("${ProjDirPath}/../FreeRTOSConfig.h" PROPERTIES COMPONENT_CONFIG_FILE "middleware_freertos-kernel_template")
 
-include(${SdkRootDirPath}/devices/LPC55S36/all_lib_device.cmake)
+include(${SdkRootDirPath}/devices/LPC5536/all_lib_device.cmake)
 
 IF(NOT DEFINED TARGET_LINK_SYSTEM_LIBRARIES)  
     SET(TARGET_LINK_SYSTEM_LIBRARIES "-lm -lc -lgcc -lnosys")  

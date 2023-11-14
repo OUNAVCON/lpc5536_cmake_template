@@ -15,6 +15,6 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PUBLIC
 
 else()
 
-message(SEND_ERROR "component_usart_adapter.LPC55S36 dependency does not meet, please check ${CMAKE_CURRENT_LIST_FILE}.")
+message(SEND_ERROR "component_usart_adapter.LPC5536 dependency does not meet, please check ${CMAKE_CURRENT_LIST_FILE}.")
 
 endif()

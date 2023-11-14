@@ -1,0 +1,8 @@
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:47:27:_write	24	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:54:27:_read	24	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:62:27:_close	16	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:69:27:_lseek	24	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:76:27:_fstat	16	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:83:27:_getpid	8	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:90:27:_isatty	16	static
+D:/repo/lpc5536-template/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c:97:27:_kill	16	static

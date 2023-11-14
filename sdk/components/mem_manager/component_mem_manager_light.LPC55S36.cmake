@@ -15,6 +15,6 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PUBLIC
 
 else()
 
-message(SEND_ERROR "component_mem_manager_light.LPC55S36 dependency does not meet, please check ${CMAKE_CURRENT_LIST_FILE}.")
+message(SEND_ERROR "component_mem_manager_light.LPC5536 dependency does not meet, please check ${CMAKE_CURRENT_LIST_FILE}.")
 
 endif()

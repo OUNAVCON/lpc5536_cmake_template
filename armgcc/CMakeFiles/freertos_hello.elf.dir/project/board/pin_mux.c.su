@@ -1,0 +1,3 @@
+/project/sdk/devices/LPC5536/drivers/./fsl_clock.h:927:20:CLOCK_EnableClock	24	static
+/project/board/pin_mux.c:31:6:BOARD_InitBootPins	8	static
+/project/board/pin_mux.c:54:6:BOARD_InitPins	16	static
