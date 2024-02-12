@@ -7,11 +7,11 @@ ASM_DEFINES =
 
 ASM_INCLUDES = -I/project/src -I/project/board -I/project/sdk/CMSIS/Core/Include/. -I/project/sdk/components/lists/. -I/project/sdk/components/serial_manager/. -I/project/sdk/components/uart/. -I/project/sdk/devices/LPC5536/. -I/project/sdk/devices/LPC5536/drivers/. -I/project/sdk/rtos/freertos/freertos-kernel/include -I/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure -I/project/sdk/devices/LPC5536/utilities/str -I/project/sdk/devices/LPC5536/utilities/debug_console
 
-ASM_FLAGS =     -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -g -g     -DDEBUG     -D__STARTUP_CLEAR_BSS     -mcpu=cortex-m33     -mthumb     -mfloat-abi=hard -mfpu=fpv5-sp-d16 
+ASM_FLAGS =          -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__     -DNDEBUG     -D__STARTUP_CLEAR_BSS     -mcpu=cortex-m33     -mthumb     -mfloat-abi=hard -mfpu=fpv5-sp-d16 
 
 C_DEFINES = 
 
 C_INCLUDES = -I/project/src -I/project/board -I/project/sdk/CMSIS/Core/Include/. -I/project/sdk/components/lists/. -I/project/sdk/components/serial_manager/. -I/project/sdk/components/uart/. -I/project/sdk/devices/LPC5536/. -I/project/sdk/devices/LPC5536/drivers/. -I/project/sdk/rtos/freertos/freertos-kernel/include -I/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure -I/project/sdk/devices/LPC5536/utilities/str -I/project/sdk/devices/LPC5536/utilities/debug_console
 
-C_FLAGS =     -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -DDEBUG     -DCPU_LPC5536JHI48     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1 
+C_FLAGS =          -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__     -DNDEBUG     -DCPU_LPC5536JBD64     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -Os     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1   -O3  -O3 
 

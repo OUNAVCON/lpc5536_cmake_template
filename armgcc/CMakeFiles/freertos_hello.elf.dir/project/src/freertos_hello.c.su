@@ -1,3 +1,2 @@
-/project/sdk/devices/LPC5536/drivers/./fsl_gpio.h:210:20:GPIO_PortToggle	24	static
-/project/src/freertos_hello.c:39:5:main	16	static
-/project/src/freertos_hello.c:65:13:hello_task	16	static
+/project/src/freertos_hello.c:78:13:hello_task	8	static
+/project/src/freertos_hello.c:52:5:main	16	static

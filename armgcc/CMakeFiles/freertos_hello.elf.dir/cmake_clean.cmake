@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "debug/freertos_hello.bin"
   "output.map"
+  "release/freertos_hello.bin"
   "CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj"
   "CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj.d"
   "CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj"
@@ -67,8 +67,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj.d"
   "CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj"
   "CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj.d"
-  "debug/freertos_hello.elf"
-  "debug/freertos_hello.elf.pdb"
+  "CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj"
+  "CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj.d"
+  "release/freertos_hello.elf"
+  "release/freertos_hello.elf.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

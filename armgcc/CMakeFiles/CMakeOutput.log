@@ -1,5 +1,5 @@
 The target system is: Generic -  - arm
-The host system is: Linux - 5.15.90.1-microsoft-standard-WSL2 - x86_64
+The host system is: Linux - 5.15.133.1-microsoft-standard-WSL2 - x86_64
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 12.2.1 20221205
 Copyright (C) 2022 Free Software Foundation, Inc.

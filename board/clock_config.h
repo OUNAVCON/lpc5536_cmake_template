@@ -77,9 +77,9 @@ void BOARD_InitBootClocks(void);
 #define BOARD_BOOTCLOCKRUN_OSTIMER_CLOCK              0UL            /* Clock consumers of OSTIMER_clock output : OSTIMER0 */
 #define BOARD_BOOTCLOCKRUN_SCT_CLOCK                  0UL            /* Clock consumers of SCT_clock output : SCT0 */
 #define BOARD_BOOTCLOCKRUN_SYSTICK0_CLOCK             0UL            /* Clock consumers of SYSTICK0_clock output : N/A */
-#define BOARD_BOOTCLOCKRUN_SYSTEM_CLOCK               12000000UL     /* Clock consumers of System_clock output : ADC0, ADC1, ANACTRL, AOI0, AOI1, CACHE64_CTRL0, CACHE64_POLSEL0, CAN0, CRC0, CTIMER0, CTIMER1, CTIMER2, CTIMER3, CTIMER4, DAC0, DAC1, DAC2, DMA0, DMA1, DMIC0, ENC0, ENC1, FLEXCOMM0, FLEXCOMM1, FLEXCOMM2, FLEXCOMM3, FLEXCOMM4, FLEXCOMM5, FLEXCOMM6, FLEXCOMM7, FLEXCOMM8, FLEXSPI0, FREQME, GPIO, HSCMP0, HSCMP1, HSCMP2, I3C0, INPUTMUX, IOCON, MRT0, OSTIMER0, PINT, POWERQUAD, PWM0, PWM1, RTC, SCT0, SECGPIO, SECPINT, USB0, USBFSH, UTICK0, VREF, WWDT */
+#define BOARD_BOOTCLOCKRUN_SYSTEM_CLOCK               12000000UL     /* Clock consumers of System_clock output : ADC0, ADC1, ANACTRL, AOI0, AOI1, CACHE64_CTRL0, CACHE64_POLSEL0, CAN0, CRC0, CTIMER0, CTIMER1, CTIMER2, CTIMER3, CTIMER4, DAC0, DAC1, DAC2, DMA0, DMA1, DMIC0, ENC0, ENC1, FLEXCOMM0, FLEXCOMM1, FLEXCOMM2, FLEXCOMM3, FLEXCOMM4, FLEXCOMM5, FLEXCOMM6, FLEXCOMM7, FLEXCOMM8, FLEXSPI0, FREQME, GPIO, HSCMP0, HSCMP1, HSCMP2, I3C0, INPUTMUX, IOCON, MRT0, OSTIMER0, PINT, POWERQUAD, PWM0, PWM1, RTC, SCT0, SECGPIO, SECPINT, UTICK0, VREF, WWDT */
 #define BOARD_BOOTCLOCKRUN_TRACE_CLOCK                0UL            /* Clock consumers of TRACE_clock output : N/A */
-#define BOARD_BOOTCLOCKRUN_USB0_CLOCK                 0UL            /* Clock consumers of USB0_clock output : USB0, USBFSH */
+#define BOARD_BOOTCLOCKRUN_USB0_CLOCK                 0UL            /* Clock consumers of USB0_clock output : N/A */
 #define BOARD_BOOTCLOCKRUN_UTICK_CLOCK                0UL            /* Clock consumers of UTICK_clock output : UTICK0 */
 #define BOARD_BOOTCLOCKRUN_WDT_CLOCK                  0UL            /* Clock consumers of WDT_clock output : WWDT */
 #define BOARD_BOOTCLOCKRUN_XTAL_FOR_FREQME_CLOCK      0UL            /* Clock consumers of XTAL_FOR_FREQME_clock output : N/A */

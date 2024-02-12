@@ -83,10 +83,24 @@ CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.s"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /project/src/freertos_hello.c -o CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.s
 
+CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
+CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj: /project/src/versionInfo.c
+CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj"
+	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj -c /project/src/versionInfo.c
+
+CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.i"
+	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /project/src/versionInfo.c > CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.i
+
+CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.s"
+	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /project/src/versionInfo.c -o CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.s
+
 CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj: /project/board/clock_config.c
 CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj -c /project/board/clock_config.c
 
 CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.s: cmake_force
 CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj: /project/board/pin_mux.c
 CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj -c /project/board/pin_mux.c
 
 CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.s: cmake_force
 CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj: /project/board/peripherals.c
 CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj -c /project/board/peripherals.c
 
 CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.s: cmake_force
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj: /project/sdk/components/lists/fsl_component_generic_list.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj -c /project/sdk/components/lists/fsl_component_generic_list.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_gen
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj: /project/sdk/components/serial_manager/fsl_component_serial_manager.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj -c /project/sdk/components/serial_manager/fsl_component_serial_manager.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_comp
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj: /project/sdk/components/serial_manager/fsl_component_serial_port_uart.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj -c /project/sdk/components/serial_manager/fsl_component_serial_port_uart.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_comp
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj: /project/sdk/components/uart/fsl_adapter_usart.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj -c /project/sdk/components/uart/fsl_adapter_usart.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj: /project/sdk/devices/LPC5536/gcc/startup_LPC5536.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj -c /project/sdk/devices/LPC5536/gcc/startup_LPC5536.S
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC553
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj: /project/sdk/devices/LPC5536/system_LPC5536.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj -c /project/sdk/devices/LPC5536/system_LPC5536.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.s
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_clock.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_clock.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_common.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_common.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_common_arm.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_common_arm.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexco
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_usart.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_usart.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_gpio.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_gpio.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_power.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_power.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj: /project/sdk/devices/LPC5536/drivers/fsl_reset.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj -c /project/sdk/devices/LPC5536/drivers/fsl_reset.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj: /project/sdk/rtos/freertos/freertos-kernel/croutine.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/croutine.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/crou
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj: /project/sdk/rtos/freertos/freertos-kernel/event_groups.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/event_groups.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/even
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj: /project/sdk/rtos/freertos/freertos-kernel/list.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/list.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj: /project/sdk/rtos/freertos/freertos-kernel/queue.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/queue.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queu
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj: /project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stre
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj: /project/sdk/rtos/freertos/freertos-kernel/tasks.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/tasks.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/task
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj: /project/sdk/rtos/freertos/freertos-kernel/timers.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/timers.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/time
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj: /project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.i: cmake_force
@@ -435,7 +449,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/port
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj: /project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.i: cmake_force
@@ -449,7 +463,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/port
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj: /project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj -c /project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -463,7 +477,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/port
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj: /project/sdk/devices/LPC5536/utilities/fsl_sbrk.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj -c /project/sdk/devices/LPC5536/utilities/fsl_sbrk.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.i: cmake_force
@@ -477,7 +491,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj: /project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj -c /project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sysc
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj: /project/sdk/devices/LPC5536/utilities/fsl_memcpy.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj -c /project/sdk/devices/LPC5536/utilities/fsl_memcpy.S
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memc
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj: /project/sdk/devices/LPC5536/utilities/fsl_assert.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj -c /project/sdk/devices/LPC5536/utilities/fsl_assert.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_asse
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj: /project/sdk/devices/LPC5536/utilities/str/fsl_str.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj -c /project/sdk/devices/LPC5536/utilities/str/fsl_str.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj: CMakeFiles/freertos_hello.elf.dir/flags.make
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj: /project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj: CMakeFiles/freertos_hello.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj"
 	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj -MF CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj.d -o CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj -c /project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c
 
 CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.i: cmake_force
@@ -546,6 +560,7 @@ CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_co
 # Object files for target freertos_hello.elf
 freertos_hello_elf_OBJECTS = \
 "CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj" \
+"CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj" \
 "CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj" \
 "CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj" \
 "CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj" \
@@ -583,48 +598,49 @@ freertos_hello_elf_OBJECTS = \
 # External object files for target freertos_hello.elf
 freertos_hello_elf_EXTERNAL_OBJECTS =
 
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/build.make
-debug/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable debug/freertos_hello.elf"
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/build.make
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/project/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable release/freertos_hello.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freertos_hello.elf.dir/link.txt --verbose=$(VERBOSE)
-	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /project/armgcc/debug/freertos_hello.elf /project/armgcc/debug/freertos_hello.bin
+	/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /project/armgcc/release/freertos_hello.elf /project/armgcc/release/freertos_hello.bin
 
 # Rule to build all files generated by this target.
-CMakeFiles/freertos_hello.elf.dir/build: debug/freertos_hello.elf
+CMakeFiles/freertos_hello.elf.dir/build: release/freertos_hello.elf
 .PHONY : CMakeFiles/freertos_hello.elf.dir/build
 
 CMakeFiles/freertos_hello.elf.dir/clean:

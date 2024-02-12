@@ -25,18 +25,17 @@ extern "C" {
  */
 void BOARD_InitBootPins(void);
 
+#define PIO0_24_DIGIMODE_DIGITAL 0x01u /*!<@brief Select Digital mode: Enable Digital mode. Digital input is enabled. */
+#define PIO0_26_DIGIMODE_DIGITAL 0x01u /*!<@brief Select Digital mode: Enable Digital mode. Digital input is enabled. */
+#define PIO0_6_DIGIMODE_DIGITAL 0x01u  /*!<@brief Select Digital mode: Enable Digital mode. Digital input is enabled. */
+#define PIO0_8_DIGIMODE_ANALOG 0x00u   /*!<@brief Select Digital mode: Disable digital mode. Digital input set to 0. */
 #define PIO1_11_DIGIMODE_DIGITAL 0x01u /*!<@brief Select Digital mode: Enable Digital mode. Digital input is enabled. */
+#define PIO1_2_DIGIMODE_DIGITAL 0x01u  /*!<@brief Select Digital mode: Enable Digital mode. Digital input is enabled. */
+#define PIO1_3_DIGIMODE_DIGITAL 0x01u  /*!<@brief Select Digital mode: Enable Digital mode. Digital input is enabled. */
 
-/*! @name PIO1_11 (number 94), LED_BLUE
+/*! @name PWM0_A0 (number 62), LED_BLUE
   @{ */
-
-/* Symbols to be used with GPIO driver */
-#define BOARD_INITPINS_LED_BLUE_GPIO GPIO                 /*!<@brief GPIO peripheral base pointer */
-#define BOARD_INITPINS_LED_BLUE_GPIO_PIN_MASK (1U << 11U) /*!<@brief GPIO pin mask */
-#define BOARD_INITPINS_LED_BLUE_PORT 1U                   /*!<@brief PORT peripheral base pointer */
-#define BOARD_INITPINS_LED_BLUE_PIN 11U                   /*!<@brief PORT pin number */
-#define BOARD_INITPINS_LED_BLUE_PIN_MASK (1U << 11U)      /*!<@brief PORT pin mask */
-                                                          /* @} */
+/* @} */
 
 /*!
  * @brief Configures pin routing and optionally pin electrical features.

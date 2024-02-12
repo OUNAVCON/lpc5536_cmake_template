@@ -19,7 +19,7 @@
 !!GlobalInfo
 product: Clocks v12.0
 processor: LPC5536
-package_id: LPC5536JBD100
+package_id: LPC5536JBD64
 mcu_data: ksdk2_0
 processor_version: 14.0.2
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS **********/

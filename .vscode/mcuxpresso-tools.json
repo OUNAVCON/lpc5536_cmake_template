@@ -1,7 +1,6 @@
 {
-  "version": "1.1",
+  "version": "1.4",
   "toolchainPath": "C:/Users/isaac/.mcuxpressotools/arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi",
-  "toolchainVersion": "Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)",
   "linkedProjects": [],
   "trustZoneType": "none",
   "multicoreType": "none",
@@ -9,16 +8,16 @@
     "linkserver": {},
     "pemicro": {},
     "segger": {
-      "device": "LPC55S36"
+      "device": "LPC5536"
     }
   },
   "projectType": "sdk-freestanding",
   "sdk": {
-    "boardId": "lpcxpresso55s36",
-    "deviceId": "LPC55S36",
-    "coreId": "cm33_core0_LPC55S36",
+    "boardId": "IDR_Demo",
+    "deviceId": "LPC5536",
+    "coreId": "cm33_core0_LPC5536",
     "version": "",
     "path": "${workspaceFolder}\\sdk",
-    "manifestId": "SDK_2.x_LPCXpresso55S36"
+    "manifestId": "SDK_2.x_LPC5536"
   }
 }

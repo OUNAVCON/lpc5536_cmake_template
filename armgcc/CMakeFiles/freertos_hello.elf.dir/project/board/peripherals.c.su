@@ -1,2 +1,2 @@
-/project/board/peripherals.c:82:6:BOARD_InitPeripherals	4	static
-/project/board/peripherals.c:90:6:BOARD_InitBootPeripherals	8	static
+/project/board/peripherals.c:82:6:BOARD_InitPeripherals	0	static
+/project/board/peripherals.c:90:6:BOARD_InitBootPeripherals	0	static

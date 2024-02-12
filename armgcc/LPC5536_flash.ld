@@ -62,6 +62,7 @@ SECTIONS
   {
     . = ALIGN(4);
     *(.text)                 /* .text sections (code) */
+    KEEP(*(.BLHeader)) /* keep my variable even if not referenced */
     *(.text*)                /* .text* sections (code) */
     *(.rodata)               /* .rodata sections (constants, strings, etc.) */
     *(.rodata*)              /* .rodata* sections (constants, strings, etc.) */

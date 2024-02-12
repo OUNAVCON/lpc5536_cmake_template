@@ -913,6 +913,30 @@ project/src/freertos_hello.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freertos_hello.elf.dir/build.make CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.s
 .PHONY : project/src/freertos_hello.c.s
 
+project/src/versionInfo.obj: project/src/versionInfo.c.obj
+.PHONY : project/src/versionInfo.obj
+
+# target to build an object file
+project/src/versionInfo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freertos_hello.elf.dir/build.make CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj
+.PHONY : project/src/versionInfo.c.obj
+
+project/src/versionInfo.i: project/src/versionInfo.c.i
+.PHONY : project/src/versionInfo.i
+
+# target to preprocess a source file
+project/src/versionInfo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freertos_hello.elf.dir/build.make CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.i
+.PHONY : project/src/versionInfo.c.i
+
+project/src/versionInfo.s: project/src/versionInfo.c.s
+.PHONY : project/src/versionInfo.s
+
+# target to generate assembly for a file
+project/src/versionInfo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freertos_hello.elf.dir/build.make CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.s
+.PHONY : project/src/versionInfo.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1020,6 +1044,9 @@ help:
 	@echo "... project/src/freertos_hello.obj"
 	@echo "... project/src/freertos_hello.i"
 	@echo "... project/src/freertos_hello.s"
+	@echo "... project/src/versionInfo.obj"
+	@echo "... project/src/versionInfo.i"
+	@echo "... project/src/versionInfo.s"
 .PHONY : help
 
 

@@ -11,6 +11,7 @@
 #include "task.h"
 #include "queue.h"
 #include "timers.h"
+#include <stdint.h>
 
 /* Freescale includes. */
 #include "fsl_device_registers.h"
@@ -29,6 +30,18 @@
  * Prototypes
  ******************************************************************************/
 static void hello_task(void *pvParameters);
+
+
+// #define VERSION_MAJOR 0x0a
+// #define VERSION_MINOR 0x0b
+// #define VERSION_BUILD 0x0c
+
+// uint32_t __attribute__((section (".BLHeader"))) blHeader[] = {0xFEEDA5A5, 
+//                                                               0x00000000, 
+//                                                               0x00000000, 
+//                                                               0xCCCCCCCC, 
+//                                                               0xDDDDDDDD,
+//                                                               (uint32_t)( ((VERSION_MAJOR & 0xFF) << 16) | ((VERSION_MINOR & 0xFF) << 8) | ((VERSION_BUILD & 0xFF)) )};
 
 /*******************************************************************************
  * Code

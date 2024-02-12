@@ -63,6 +63,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/project/sdk/rtos/freertos/freertos-kernel/tasks.c" "CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj" "gcc" "CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj.d"
   "/project/sdk/rtos/freertos/freertos-kernel/timers.c" "CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj" "gcc" "CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj.d"
   "/project/src/freertos_hello.c" "CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj" "gcc" "CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj.d"
+  "/project/src/versionInfo.c" "CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj" "gcc" "CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj.d"
   )
 
 # Targets to which this target links.

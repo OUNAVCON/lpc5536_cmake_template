@@ -1,8 +1,6 @@
-/project/sdk/components/uart/fsl_adapter_usart.c:170:26:HAL_UartGetStatus	16	static
-/project/sdk/components/uart/fsl_adapter_usart.c:275:26:HAL_UartInitCommon	56	static
-/project/sdk/components/uart/fsl_adapter_usart.c:330:19:HAL_UartInit	24	static
-/project/sdk/components/uart/fsl_adapter_usart.c:368:19:HAL_UartDeinit	24	static
-/project/sdk/components/uart/fsl_adapter_usart.c:381:19:HAL_UartReceiveBlocking	32	static
-/project/sdk/components/uart/fsl_adapter_usart.c:403:19:HAL_UartSendBlocking	32	static
-/project/sdk/components/uart/fsl_adapter_usart.c:424:19:HAL_UartEnterLowpower	16	static
-/project/sdk/components/uart/fsl_adapter_usart.c:431:19:HAL_UartExitLowpower	16	static
+/project/sdk/components/uart/fsl_adapter_usart.c:330:19:HAL_UartInit	48	static
+/project/sdk/components/uart/fsl_adapter_usart.c:368:19:HAL_UartDeinit	8	static
+/project/sdk/components/uart/fsl_adapter_usart.c:381:19:HAL_UartReceiveBlocking	8	static
+/project/sdk/components/uart/fsl_adapter_usart.c:403:19:HAL_UartSendBlocking	8	static
+/project/sdk/components/uart/fsl_adapter_usart.c:424:19:HAL_UartEnterLowpower	0	static
+/project/sdk/components/uart/fsl_adapter_usart.c:431:19:HAL_UartExitLowpower	0	static

@@ -2,7 +2,7 @@
 <configuration name="LPC5536" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_14 http://mcuxpresso.nxp.com/XSD/mex_configuration_14.xsd" uuid="ff44466a-4028-4d6f-bd95-0a8451d73eb5" version="14" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <common>
       <processor>LPC5536</processor>
-      <package>LPC5536JBD100</package>
+      <package>LPC5536JBD64</package>
       <mcu_data>ksdk2_0</mcu_data>
       <cores selected="cm33_core0">
          <core name="Cortex-M33" id="cm33_core0" description="M33 core"/>
@@ -25,7 +25,7 @@
          <pins_profile>
             <processor_version>14.0.2</processor_version>
             <pin_labels>
-               <pin_label pin_num="94" pin_signal="PIO1_11/FC1_TXD_SCL_MISO_WS/CT_INP5/USB0_VBUS/HS_SPI_SSEL0/FC6_SCK/PWM0_A0/EXTTRIG_IN8" label="LED_BLUE" identifier="LED_BLUE"/>
+               <pin_label pin_num="62" pin_signal="PIO1_11/FC1_TXD_SCL_MISO_WS/CT_INP5/HS_SPI_SSEL0/FC6_SCK/PWM0_A0/EXTTRIG_IN8" label="LED_BLUE" identifier="LED_BLUE"/>
             </pin_labels>
          </pins_profile>
          <functions_list>
@@ -37,23 +37,36 @@
                   <enableClock>true</enableClock>
                </options>
                <dependencies>
-                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
-                     <feature name="enabled" evaluation="equal" configuration="cm33_core0">
+                  <dependency resourceType="Peripheral" resourceId="CAN0" description="Peripheral CAN0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
                         <data>true</data>
                      </feature>
                   </dependency>
-                  <dependency resourceType="SWComponent" resourceId="platform.drivers.lpc_gpio" description="Pins initialization requires the LPC_GPIO Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                  <dependency resourceType="Peripheral" resourceId="PWM0" description="Peripheral PWM0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="OPAMP0" description="Peripheral OPAMP0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
                      <feature name="enabled" evaluation="equal" configuration="cm33_core0">
                         <data>true</data>
                      </feature>
                   </dependency>
                </dependencies>
                <pins>
-                  <pin peripheral="GPIO" signal="PIO1, 11" pin_num="94" pin_signal="PIO1_11/FC1_TXD_SCL_MISO_WS/CT_INP5/USB0_VBUS/HS_SPI_SSEL0/FC6_SCK/PWM0_A0/EXTTRIG_IN8">
-                     <pin_features>
-                        <pin_feature name="direction" value="OUTPUT"/>
-                     </pin_features>
-                  </pin>
+                  <pin peripheral="CAN0" signal="CAN_RD" pin_num="43" pin_signal="PIO1_3/CAN0_RD/FC2_TXD_SCL_MISO_WS/SCT0_OUT4/PDM_DATA1/HS_SPI_MISO/PWM0_A3"/>
+                  <pin peripheral="CAN0" signal="CAN_TD" pin_num="42" pin_signal="PIO1_2/CAN0_TD/CTIMER0_MAT3/SCT_GPI6/PDM_CLK1/HS_SPI_SCK/PWM0_B0/AOI0_OUT0"/>
+                  <pin peripheral="PWM0" signal="A, 0" pin_num="62" pin_signal="PIO1_11/FC1_TXD_SCL_MISO_WS/CT_INP5/HS_SPI_SSEL0/FC6_SCK/PWM0_A0/EXTTRIG_IN8"/>
+                  <pin peripheral="PWM0" signal="A, 1" pin_num="45" pin_signal="PIO0_24/FC0_RXD_SDA_MOSI_DATA/CT_INP8/SCT_GPI0/I3C0_SDA/TRACEDATA0/SECURE_GPIO0_24/PWM0_A1/PWM0_X0/HSCMP0_IN0"/>
+                  <pin peripheral="PWM0" signal="B, 0" pin_num="59" pin_signal="PIO0_6/FC3_SCK/CT_INP13/CTIMER4_MAT0/SCT_GPI6/FLEXSPI0_DATA0/SCT0_OUT6/FC7_RXD_SDA_MOSI_DATA/SECURE_GPIO0_6/PWM0_B0/EXTTRIG_IN1"/>
+                  <pin peripheral="PWM0" signal="B, 1" pin_num="41" pin_signal="PIO0_26/TAMPER2/FC2_RXD_SDA_MOSI_DATA/CLKOUT/CT_INP14/SCT0_OUT5/PDM_CLK0/FC0_SCK/HS_SPI_MOSI/SECURE_GPIO0_26/PWM0_B1"/>
+                  <pin peripheral="OPAMP0" signal="DM, 0" pin_num="18" pin_signal="OPAMP0_INN"/>
+                  <pin peripheral="OPAMP0" signal="DP, 0" pin_num="17" pin_signal="PIO0_8/FC3_SSEL3/FC5_RXD_SDA_MOSI_DATA/SWO/PDM_DATA1/SECURE_GPIO0_8/OPAMP0_INP"/>
                </pins>
             </function>
          </functions_list>

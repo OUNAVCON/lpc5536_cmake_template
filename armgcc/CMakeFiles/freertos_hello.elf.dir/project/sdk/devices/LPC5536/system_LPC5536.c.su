@@ -1,3 +1,3 @@
+/project/sdk/devices/LPC5536/system_LPC5536.c:100:6:SystemCoreClockUpdate	0	static
+/project/sdk/devices/LPC5536/system_LPC5536.c:108:29:SystemInitHook	0	static
 /project/sdk/devices/LPC5536/system_LPC5536.c:63:29:SystemInit	8	static
-/project/sdk/devices/LPC5536/system_LPC5536.c:100:6:SystemCoreClockUpdate	4	static
-/project/sdk/devices/LPC5536/system_LPC5536.c:108:29:SystemInitHook	4	static

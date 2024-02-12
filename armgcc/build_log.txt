@@ -1,42 +1,48 @@
 Scanning dependencies of target freertos_hello.elf
 [  2%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj
-[  5%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj
+[  5%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/versionInfo.c.obj
+[  8%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/clock_config.c.obj
 [ 11%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj
-[ 11%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj
-[ 14%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
-[ 17%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
-[ 20%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
+[ 13%] Building C object CMakeFiles/freertos_hello.elf.dir/project/board/peripherals.c.obj
+[ 16%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
+[ 19%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
+[ 22%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
 [ 25%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_usart.c.obj
-[ 25%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj
-[ 31%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj
-[ 31%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj
-[ 37%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj
-[ 40%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj
-[ 42%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj
-[ 42%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj
-[ 48%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj
-[ 48%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj
-[ 54%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj
-[ 54%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj
-[ 57%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj
-[ 62%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj
-[ 65%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj
-[ 65%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj
-[ 71%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj
-[ 71%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj
-[ 74%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj
-[ 77%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj
+[ 30%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/system_LPC5536.c.obj
+[ 30%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/gcc/startup_LPC5536.S.obj
+[ 33%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_clock.c.obj
+[ 38%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common.c.obj
+[ 41%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_flexcomm.c.obj
+[ 41%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_common_arm.c.obj
+[ 44%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_gpio.c.obj
+[ 50%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_power.c.obj
+[ 50%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_usart.c.obj
+[ 52%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj
+[ 55%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/drivers/fsl_reset.c.obj
+[ 61%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj
+[ 61%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj
+[ 66%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj
+[ 66%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj
+[ 72%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj
+[ 72%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj
+[ 75%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c.obj
 [ 80%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
-[ 85%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj
-[ 85%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj
-[ 91%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj
+[ 80%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c.obj
+[ 86%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_syscall_stub.c.obj
+[ 88%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_assert.c.obj
+[ 91%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_sbrk.c.obj
 [ 91%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/fsl_memcpy.S.obj
-[ 97%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj
 [ 97%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/debug_console/fsl_debug_console.c.obj
-[100%] Linking C executable debug/freertos_hello.elf
+[ 97%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/LPC5536/utilities/str/fsl_str.c.obj
+[100%] Linking C executable release/freertos_hello.elf
+/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: invalid origin for memory region m_interrupts
+/opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: section .interrupts LMA [0000000000000000,000000000000021f] overlaps section .text LMA [0000000000000000,0000000000003013]
 Memory region         Used Size  Region Size  %age Used
     m_interrupts:         544 B         1 KB     53.12%
-          m_text:       18796 B       245 KB      7.49%
-          m_data:       13880 B       112 KB     12.10%
+          m_text:       11300 B        64 KB     17.24%
+          m_data:       13888 B       112 KB     12.11%
          m_sramx:          0 GB        16 KB      0.00%
-[100%] Built target freertos_hello.elf
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/freertos_hello.elf.dir/build.make:639: release/freertos_hello.elf] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/freertos_hello.elf.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2

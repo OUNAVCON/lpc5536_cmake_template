@@ -14,7 +14,6 @@ CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj: \
  /project/sdk/devices/LPC5536/drivers/./fsl_clock.h \
  /project/sdk/devices/LPC5536/drivers/./fsl_common.h \
  /project/sdk/devices/LPC5536/drivers/./fsl_reset.h \
- /project/sdk/devices/LPC5536/drivers/./fsl_gpio.h \
  /project/board/pin_mux.h
 /project/sdk/devices/LPC5536/drivers/./fsl_common.h:
 /project/sdk/devices/LPC5536/./fsl_device_registers.h:
@@ -30,5 +29,4 @@ CMakeFiles/freertos_hello.elf.dir/project/board/pin_mux.c.obj: \
 /project/sdk/devices/LPC5536/drivers/./fsl_clock.h:
 /project/sdk/devices/LPC5536/drivers/./fsl_common.h:
 /project/sdk/devices/LPC5536/drivers/./fsl_reset.h:
-/project/sdk/devices/LPC5536/drivers/./fsl_gpio.h:
 /project/board/pin_mux.h:

@@ -684,7 +684,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "   -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g     -DDEBUG     -DCPU_LPC5536JHI48     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1 "
+					"fragment" : "   -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g     -DDEBUG     -DCPU_LPC5536JBD64     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1 "
 				}
 			],
 			"includes" : 
@@ -779,7 +779,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "   -fstack-usage  -D__NEWLIB__       -g -g -g -g -g -g -g -g -g -g -g -g     -DDEBUG     -D__STARTUP_CLEAR_BSS     -mcpu=cortex-m33     -mthumb     -mfloat-abi=hard -mfpu=fpv5-sp-d16 "
+					"fragment" : "   -fstack-usage  -D__NEWLIB__       -g -g -g -g -g -g -g -g     -DDEBUG     -D__STARTUP_CLEAR_BSS     -mcpu=cortex-m33     -mthumb     -mfloat-abi=hard -mfpu=fpv5-sp-d16 "
 				}
 			],
 			"includes" : 
@@ -847,7 +847,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g     -DDEBUG     -DCPU_LPC5536JHI48     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1",
+				"fragment" : "-fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g     -DDEBUG     -DCPU_LPC5536JBD64     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1",
 				"role" : "flags"
 			},
 			{

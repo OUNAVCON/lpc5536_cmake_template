@@ -29,8 +29,8 @@ __Vectors:
     .long   UsageFault_Handler                              /* Usage Fault Handler*/
     .long   SecureFault_Handler                             /* Secure Fault Handler*/
     .long   0                                               /* Reserved*/
-    .long   0                                               /* Reserved*/
-    .long   0                                               /* Reserved*/
+    .long   0x0FFEB6B6                                      /* Reserved*/
+    .long   blHeader                                        /* Reserved*/
     .long   SVC_Handler                                     /* SVCall Handler*/
     .long   DebugMon_Handler                                /* Debug Monitor Handler*/
     .long   0                                               /* Reserved*/
