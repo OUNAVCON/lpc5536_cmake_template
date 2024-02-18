@@ -30,3 +30,7 @@ RUN rm -rf /tmp_dir/
 # https://docs.zephyrproject.org/latest/develop/west/moving-to-west.html
 #EXPOSE 6379
 #CMD ["redis-server", "--protected-mode no"]
+ENV ARMGCC_DIR='/opt/arm/arm-none-eabi'
+ENV SdkRootDirPath='/project/sdk'
+WORKDIR /project
+ENTRYPOINT [ "/bin/bash" ]
