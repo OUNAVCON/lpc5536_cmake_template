@@ -1,3 +1,0 @@
-D:/repo/lpc5536-template/sdk/devices/LPC5536/system_LPC5536.c:63:29:SystemInit	8	static
-D:/repo/lpc5536-template/sdk/devices/LPC5536/system_LPC5536.c:100:6:SystemCoreClockUpdate	4	static
-D:/repo/lpc5536-template/sdk/devices/LPC5536/system_LPC5536.c:108:29:SystemInitHook	4	static

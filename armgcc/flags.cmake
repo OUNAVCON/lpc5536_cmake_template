@@ -88,7 +88,7 @@ SET(CMAKE_EXE_LINKER_FLAGS " \
     -Xlinker \
     muldefs \
     -Xlinker \
-    -Map=output.map \
+    -Map=${EXECUTABLE_OUTPUT_PATH}/output.map \
     -Wl,--print-memory-usage \
     ${FPU} \
     ${SPECS} \
@@ -156,7 +156,6 @@ SET(CMAKE_EXE_LINKER_FLAGS " \
     -Wall \
     -fno-common \
     -ffunction-sections \
-    -Ttext 0x00000 \
     -fdata-sections \
     -ffreestanding \
     -fno-builtin \
@@ -171,7 +170,7 @@ SET(CMAKE_EXE_LINKER_FLAGS " \
     -Xlinker \
     muldefs \
     -Xlinker \
-    -Map=output.map \
+    -Map=${EXECUTABLE_OUTPUT_PATH}/output.map \
     -Wl,--print-memory-usage \
     ${FPU} \
     ${SPECS} \

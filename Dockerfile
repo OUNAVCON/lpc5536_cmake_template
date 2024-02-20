@@ -23,6 +23,8 @@ RUN tar -xJf /tmp_dir/AdditionalCLibs-12.2.1-linux.tar.xz -C /opt/arm/
 # done with temp now delete it.
 RUN rm -rf /tmp_dir/
 
+RUN ln -s /opt/arm/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/ /opt/arm/arm-none-eabi
+
 #RUN apt install python
 #RUN pip3 install --user -U west
 

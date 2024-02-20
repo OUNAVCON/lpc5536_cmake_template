@@ -45,14 +45,6 @@ include(${ProjDirPath}/flags.cmake)
 include(${ProjDirPath}/config.cmake)
 
 add_executable(${MCUX_SDK_PROJECT_NAME} 
-#"${ProjDirPath}/../FreeRTOSConfig.h"
-#"${ProjDirPath}/../pin_mux.c"
-#"${ProjDirPath}/../pin_mux.h"
-#"${ProjDirPath}/../freertos_hello.c"
-#"${ProjDirPath}/../board.c"
-#"${ProjDirPath}/../board.h"
-#"${ProjDirPath}/../clock_config.c"
-#"${ProjDirPath}/../clock_config.h"
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
@@ -60,8 +52,6 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
 )
 include(${ProjDirPath}/../src/all_sources.cmake)
 include(${ProjDirPath}/../board/all_sources.cmake)
-
-#set_source_files_properties("${ProjDirPath}/../FreeRTOSConfig.h" PROPERTIES COMPONENT_CONFIG_FILE "middleware_freertos-kernel_template")
 
 include(${SdkRootDirPath}/devices/LPC5536/all_lib_device.cmake)
 

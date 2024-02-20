@@ -1,5 +1,0 @@
-D:/repo/lpc5536-template/sdk/rtos/freertos/freertos-kernel/list.c:50:6:vListInitialise	16	static
-D:/repo/lpc5536-template/sdk/rtos/freertos/freertos-kernel/list.c:86:6:vListInitialiseItem	16	static
-D:/repo/lpc5536-template/sdk/rtos/freertos/freertos-kernel/list.c:98:6:vListInsertEnd	24	static
-D:/repo/lpc5536-template/sdk/rtos/freertos/freertos-kernel/list.c:128:6:vListInsert	24	static
-D:/repo/lpc5536-template/sdk/rtos/freertos/freertos-kernel/list.c:199:13:uxListRemove	24	static

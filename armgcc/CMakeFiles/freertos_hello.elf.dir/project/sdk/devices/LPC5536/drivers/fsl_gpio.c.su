@@ -1,2 +1,0 @@
-/project/sdk/devices/LPC5536/drivers/fsl_gpio.c:60:6:GPIO_PortInit	8	static
-/project/sdk/devices/LPC5536/drivers/fsl_gpio.c:97:6:GPIO_PinInit	16	static

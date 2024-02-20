@@ -1,3 +1,0 @@
-D:/repo/lpc5536-template/sdk/devices/LPC5536/drivers/fsl_reset.c:42:6:RESET_SetPeripheralReset	32	static
-D:/repo/lpc5536-template/sdk/devices/LPC5536/drivers/fsl_reset.c:68:6:RESET_ClearPeripheralReset	32	static
-D:/repo/lpc5536-template/sdk/devices/LPC5536/drivers/fsl_reset.c:95:6:RESET_PeripheralReset	16	static

@@ -1,3 +1,0 @@
-/project/armgcc/CMakeFiles/freertos_hello.elf.dir
-/project/armgcc/CMakeFiles/edit_cache.dir
-/project/armgcc/CMakeFiles/rebuild_cache.dir

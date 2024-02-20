@@ -35,14 +35,14 @@ RETENTION_RAMSIZE = DEFINED(__pkc__) ? 0x00004000 : (DEFINED(__power_down__) ? 0
 POWERQUAD_RAMSIZE = DEFINED(__powerquad__)  ? 0x00004000 : 0x00000000;  /* SRAM E(16K) reserved for powerquad */
 
 /* AN12327 - Bootloader jumps to 0x0001_0000.
-TEXT_START = DEFINED(__qspi_xip__)  ? 0x08001000 : 0x00010000; /* flexspi boot image start with 0x08000000 */
+TEXT_START = DEFINED(__qspi_xip__)  ? 0x08001000 : 0x00001000; /* flexspi boot image start with 0x08000000 */
 TEXT_SIZE = DEFINED(__qspi_xip__)   ? 0x07FFF000 : 0x00010000; /* flexspi boot image offset at 0x08001000, 0x0003D800 */
 
 /* Specify the memory areas */
 MEMORY
-{
-  m_interrupts          (RX)  : ORIGIN = TEXT_START, LENGTH = 0x00000400
-  m_text                (RX)  : ORIGIN = ORIGIN(m_interrupts) + LENGTH(m_interrupts), LENGTH = TEXT_SIZE
+{ 
+  m_interrupts          (RX)  : ORIGIN = 0x00010000, LENGTH = 0x00000400 
+  m_text                (RX)  : ORIGIN = ORIGIN(m_interrupts) + LENGTH(m_interrupts), LENGTH = 0x00019A00 - 0x400
   m_data                (RW)  : ORIGIN = 0x20000000 + RETENTION_RAMSIZE, LENGTH = 0x0001C000 - RETENTION_RAMSIZE - POWERQUAD_RAMSIZE
   m_sramx               (RW)  : ORIGIN = 0x04000000, LENGTH = 0x00004000
 }
@@ -197,6 +197,12 @@ SECTIONS
     . += STACK_SIZE;
   } > m_data
 
+
+.bootloaderShared 0x04000000:
+  {
+    KEEP(*(.blFlag))
+    KEEP(*(.blVersion))
+  }>m_sramx
   /* Initializes stack on the end of block */
   __StackTop   = ORIGIN(m_data) + LENGTH(m_data);
   __StackLimit = __StackTop - STACK_SIZE;
